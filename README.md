@@ -22,14 +22,12 @@ Here's a walkthrough of implemented features:
 
 <img src='crowdsource.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
 
-[peek](https://github.com/phw/peek) for Linux
+GIF created with [peek](https://github.com/phw/peek) for Linux
 
 ## Notes
 
-No issues encountured while manipulating the DOM using date from a JSON object of data
+No issues encountured while manipulating the DOM using data from a JSON object of games
 
 ## License
 
