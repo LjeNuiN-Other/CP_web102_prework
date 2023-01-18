@@ -180,7 +180,7 @@ return total += 1
 
 
 // create a string that explains the number of unfunded games using the ternary operator
-let displayStr = `A total of $${totalRaised.toLocaleString()} has been rasied for ${totalGames} games. Currently, ${unFundedCount} ${unFundedCount < 1 ? "game remains unfunded. We need your help to fund these amazing games!": "games remain unfunded. We need your help to fund these amazing games!"}`;
+let displayStr = `A total of $${totalRaised.toLocaleString()} has been rasied for ${totalGames} games. Currently, ${unFundedCount} ${unFundedCount < 2 ? "game remains unfunded. We need your help to fund these amazing games!": "games remain unfunded. We need your help to fund these amazing games!"}`;
 
 // create a new DOM element containing the template string and append it to the description container
 let p = document.createElement('p')
