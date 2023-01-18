@@ -172,10 +172,12 @@ const descriptionContainer = document.getElementById("description-container");
 // use filter or reduce to count the number of unfunded games
 
 let unFundedCount = GAMES_JSON.filter((game) => {
-    game.pledged < game.goal}
+    return game.pledged < game.goal}
     ).reduce((total) => {
 return total += 1
 }, 0)
+
+console.log(unFundedCount)
 
 
 
